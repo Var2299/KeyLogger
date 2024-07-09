@@ -1,0 +1,42 @@
+.container{
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   
+   margin-top: 150px;
+   
+}
+h1{
+    border: 4px solid black;
+    border-radius: 20px;
+    margin: 10px;
+    padding: 20px;
+}
+.button-cont{
+    display: flex;
+   flex-direction: row;
+   margin-top: 40px;
+}
+
+button{
+    padding: 30px;
+    font-size: medium;
+    margin: 16px;
+    border-radius: 10px;
+}
+button:hover{
+    background-color: grey;
+}
+.divv1{
+    font-size: 20px;
+    display: flex;
+  justify-content: center; 
+  align-items: center;
+    background-color: yellow;width: 500px;height: 90px; border: 3px solid black;margin:10px;}
+.divv2{
+    font-size: 20px;
+
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+    background-color:green;width: 500px;height: 90px;border: 3px solid black;margin:10px;}
